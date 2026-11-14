@@ -1,6 +1,7 @@
 // ai-joke-03 entry (Node 22, standard library only): writes one fixed joke,
 // a one-liner about AI coding agents, to /output/entry.txt. Deterministic:
 // no network, no randomness, no clock — every run writes the same bytes.
+// The joke is exactly 99 characters, one line, no trailing newline.
 // The joke, in three beats: the agent apologizes for the bug, fixes it,
 // then apologizes for the fix and undoes it. The surprise lands on the
 // last clause ("put the bug back"), and every beat is behaviour a developer
